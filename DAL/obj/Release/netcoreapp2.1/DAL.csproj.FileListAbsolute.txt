@@ -1,0 +1,14 @@
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\bin\Release\netcoreapp2.1\DAL.deps.json
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\bin\Release\netcoreapp2.1\DAL.dll
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\bin\Release\netcoreapp2.1\DAL.pdb
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\bin\Release\netcoreapp2.1\IDAL.dll
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\bin\Release\netcoreapp2.1\MODELS.dll
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\bin\Release\netcoreapp2.1\IDAL.pdb
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\bin\Release\netcoreapp2.1\MODELS.pdb
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\obj\Release\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\obj\Release\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\obj\Release\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\obj\Release\netcoreapp2.1\DAL.AssemblyInfo.cs
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\obj\Release\netcoreapp2.1\DAL.csproj.CopyComplete
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\obj\Release\netcoreapp2.1\DAL.dll
+K:\Code\bianyiqi\DotNetCore_MVCDemo\DAL\obj\Release\netcoreapp2.1\DAL.pdb

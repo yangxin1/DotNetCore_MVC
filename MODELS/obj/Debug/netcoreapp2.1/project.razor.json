@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "k:\\Code\\bianyiqi\\DotNetCore_MVCDemo\\MODELS\\MODELS.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

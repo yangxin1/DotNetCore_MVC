@@ -1,0 +1,17 @@
+﻿
+<h1>
+    中转view @ViewBag.msg
+</h1>
+<script>
+    $(function () {
+        alert("测试");
+        var msg = '@ViewBag.msg';
+        if (msg != '') {
+            Location.href("/caruser/index");
+        } else {
+            Location.href("/login/index");
+        }
+        
+    })
+</script>
+

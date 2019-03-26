@@ -1,0 +1,38 @@
+﻿@model MODELS.LoginUser
+@{
+    ViewData["Title"] = "登陆页面";
+}
+<div class="login-box">
+    <!-- /.login-logo -->
+    <div class="login-box-body">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <form asp-controller="Login" asp-action="login" method="post">
+            <div class="form-group has-feedback">
+                <input asp-for="LoginName" type="text" class="form-control" placeholder="用户名">
+                <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                @*<span asp-validation-for="LoginName" class="text-danger"></span>*@
+            </div>
+            <div class="form-group has-feedback">
+                <input asp-for="LoginPassword" type="password" class="form-control" placeholder="密码">
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+            <div class="row">
+                @*<div class="col-xs-8">
+                    <div class="checkbox icheck">
+                        <label>
+                            <input type="checkbox"> 记住我
+                        </label>
+                    </div>
+                </div>*@
+                <!-- /.col -->
+                <div class="col-xs-4">
+                    <button type="submit" class="btn btn-primary btn-block btn-flat">登录</button>
+                    <a href="/test/show" class="btn btn-primary btn-block btn-flat">返回主页</a>
+                    @ViewBag.msg
+                </div>
+                <!-- /.col -->
+            </div>
+        </form>
+    </div>
+</div>

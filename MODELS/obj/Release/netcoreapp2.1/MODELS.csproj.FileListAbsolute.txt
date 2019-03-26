@@ -1,0 +1,9 @@
+K:\Code\bianyiqi\DotNetCore_MVCDemo\MODELS\bin\Release\netcoreapp2.1\MODELS.deps.json
+K:\Code\bianyiqi\DotNetCore_MVCDemo\MODELS\bin\Release\netcoreapp2.1\MODELS.dll
+K:\Code\bianyiqi\DotNetCore_MVCDemo\MODELS\bin\Release\netcoreapp2.1\MODELS.pdb
+K:\Code\bianyiqi\DotNetCore_MVCDemo\MODELS\obj\Release\netcoreapp2.1\MODELS.csprojAssemblyReference.cache
+K:\Code\bianyiqi\DotNetCore_MVCDemo\MODELS\obj\Release\netcoreapp2.1\MODELS.csproj.CoreCompileInputs.cache
+K:\Code\bianyiqi\DotNetCore_MVCDemo\MODELS\obj\Release\netcoreapp2.1\MODELS.AssemblyInfoInputs.cache
+K:\Code\bianyiqi\DotNetCore_MVCDemo\MODELS\obj\Release\netcoreapp2.1\MODELS.AssemblyInfo.cs
+K:\Code\bianyiqi\DotNetCore_MVCDemo\MODELS\obj\Release\netcoreapp2.1\MODELS.dll
+K:\Code\bianyiqi\DotNetCore_MVCDemo\MODELS\obj\Release\netcoreapp2.1\MODELS.pdb

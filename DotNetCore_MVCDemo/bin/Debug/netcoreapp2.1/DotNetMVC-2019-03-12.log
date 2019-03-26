@@ -1,0 +1,56 @@
+2019-03-12 13:11:52.8333|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:11:53.0033|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 13:11:53.8646|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:12:26.4296|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:12:26.4296|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from caruser limit 0,5 
+2019-03-12 13:12:26.4554|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:12:33.9774|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:12:33.9905|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 13:12:33.9905|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:12:39.0557|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:12:39.0557|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 13:12:39.0557|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:12:55.5274|DAL.DBHelper`1|INFO|拼接的SQL：insert into user (Name,Age ) values ('罗南红',22) 
+2019-03-12 13:12:55.5528|DAL.DBHelper`1|INFO|添加数据成功（数据访问层） 
+2019-03-12 13:12:56.7727|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:12:56.7727|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 13:12:56.7727|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:00.5690|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:00.5690|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 13:13:00.5690|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:04.8381|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:04.8381|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 13:13:04.8381|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:08.1693|DAL.DBHelper`1|INFO|开始查询数据库（数据访问层） 
+2019-03-12 13:13:08.1693|DAL.DBHelper`1|INFO|生成的sql语句：select * from user where  name = '罗南红' 
+2019-03-12 13:13:08.1811|DAL.DBHelper`1|INFO|结束查询（数据访问层） 
+2019-03-12 13:13:11.3072|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:11.3191|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 13:13:11.3191|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:13.6877|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:13.6877|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 13:13:13.7002|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:17.3828|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:17.3828|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 13:13:17.3828|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:21.5385|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:21.5385|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 10,10 
+2019-03-12 13:13:21.5385|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:22.5060|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:22.5060|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 20,10 
+2019-03-12 13:13:22.5060|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:23.2403|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:23.2403|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 30,10 
+2019-03-12 13:13:23.2403|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:23.7894|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:23.7894|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 40,10 
+2019-03-12 13:13:23.7894|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:24.3044|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:24.3044|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 50,10 
+2019-03-12 13:13:24.3044|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:24.8054|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:24.8054|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 60,10 
+2019-03-12 13:13:24.8191|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 13:13:25.3188|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 13:13:25.3188|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 70,10 
+2019-03-12 13:13:25.3188|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
