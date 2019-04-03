@@ -1,5 +1,5 @@
 {
   "Redis": {
-    "configuration": "127.0.0.1:6379" //IP和端口
+    "configuration": "127.0.0.1:6379" //IP和端口（目前已经弃用，redis配置文件在DAL项目中）
   }
 }

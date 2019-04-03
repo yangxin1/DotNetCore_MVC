@@ -25,10 +25,6 @@ namespace DotNetCore_MVCDemo.Controllers
         /// </summary>
         private ILoginUser _DBHelper;
         /// <summary>
-        /// 日志
-        /// </summary>
-        static Logger _log = LogManager.GetCurrentClassLogger();
-        /// <summary>
         /// 缓存
         /// </summary>
         private IDBHelper_Redis _redis;
@@ -36,10 +32,10 @@ namespace DotNetCore_MVCDemo.Controllers
         /// 注入了redis类
         /// </summary>
         /// <param name="redis"></param>
-        public LoginController(IDBHelper_Redis redis)
+        public LoginController(IDBHelper_Redis redis,ILoginUser loginDAL)
         {
             _redis = redis;
-            _DBHelper = new LoginUserDAL();
+            _DBHelper = loginDAL; //new LoginUserDAL();
             
         }
 

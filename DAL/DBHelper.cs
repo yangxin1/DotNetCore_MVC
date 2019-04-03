@@ -15,7 +15,7 @@ namespace DAL
     /// <summary>
     /// 数据访问基类
     /// </summary>
-    public class DBHelper<T> : IDBHelper<T>
+    public abstract class DBHelper<T> : IDBHelper<T>
     {
         #region field
         /// <summary>
@@ -140,16 +140,15 @@ namespace DAL
             return await Task.Run(() =>
             {
                 for (int i = 0; i < property.Length; i++)        //循环读取model值
-            {
-                    if (property[i].PropertyType.FullName == "System.String")       //判断string类型加入引号
                 {
+                    if (property[i].PropertyType.FullName == "System.String")       //判断string类型加入引号
+                    {
                         fields += property[i].Name + " = '" + property[i].GetValue(model) + "',";
                     }
                     else
                     {
                         fields += property[i].Name + " = " + property[i].GetValue(model) + ",";
                     }
-
                 }
                 fields = fields.Substring(0, fields.Length - 1);
                 sql.Append(fields + " where " + priname + " = " + prikey);

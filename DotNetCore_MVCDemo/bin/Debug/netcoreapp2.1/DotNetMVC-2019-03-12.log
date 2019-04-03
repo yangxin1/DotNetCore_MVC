@@ -54,3 +54,6 @@
 2019-03-12 13:13:25.3188|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
 2019-03-12 13:13:25.3188|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 70,10 
 2019-03-12 13:13:25.3188|DAL.DBHelper`1|INFO|查询完成（数据访问层） 
+2019-03-12 17:16:16.1626|DAL.DBHelper`1|INFO|开始批量查询数据（数据访问层） 
+2019-03-12 17:16:16.2274|DAL.DBHelper`1|INFO|生成的sql语句：(数据访问层)select * from user limit 0,10 
+2019-03-12 17:16:16.6919|DAL.DBHelper`1|INFO|查询完成（数据访问层） 

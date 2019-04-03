@@ -5,7 +5,7 @@ namespace IDAL
     /// <summary>
     /// 汽车用户类
     /// </summary>
-    public interface ICarUser:IDBHelper<CarUser>,Itest
+    public interface ICarUser:IDBHelper<CarUser>
     {
         /// <summary>
         /// 测试方法

@@ -18,10 +18,6 @@ namespace DotNetCore_MVCDemo.Controllers
         /// </summary>
         private IUserDAL _DBHelper;
         /// <summary>
-        /// 日志
-        /// </summary>
-        static Logger _log = LogManager.GetCurrentClassLogger();
-        /// <summary>
         /// 通过自带的依赖注入容器注入底层方法
         /// </summary>
         /// <param name="DBhelper">startup中的依赖注入的类</param>
@@ -29,7 +25,6 @@ namespace DotNetCore_MVCDemo.Controllers
         {
             _DBHelper = DBhelper;
         }
-
         #endregion
 
         /// <summary>

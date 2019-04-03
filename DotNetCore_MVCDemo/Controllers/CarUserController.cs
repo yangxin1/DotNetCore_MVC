@@ -19,10 +19,6 @@ namespace DotNetCore_MVCDemo.Controllers
         /// </summary>
         private ICarUser _DBHelper;
         /// <summary>
-        /// 日志
-        /// </summary>
-        static readonly Logger _log = LogManager.GetCurrentClassLogger();
-        /// <summary>
         /// 缓存
         /// </summary>
         private IDBHelper_Redis _redis;
