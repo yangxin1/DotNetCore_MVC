@@ -77,7 +77,7 @@ Write(Html.AntiForgeryToken());
             WriteLiteral("\n\n<h2>数据展示</h2>\n<h3><a href=\"/home/index\">返回首页</a></h3>\n<br />\n<div>\n    ");
             EndContext();
             BeginContext(135, 691, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3f8d5c1234ae4994b67d1149e6fc5aa4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f5e58a31ae1479a9c7d03f31d26cddf", async() => {
                 BeginContext(295, 524, true);
                 WriteLiteral(@"
         <div class=""form-group"">
@@ -121,7 +121,7 @@ Write(Html.AntiForgeryToken());
             WriteLiteral("\n    <!--输入表格-->\n</div>\n<a href=\"/Login/index\" class=\"btn btn-success\">登陆</a>\n<a href=\"/identity/index\" class=\"btn btn-default\">访问含有身份验证的页面</a>\n<hr />\n<!--搜索框-->\n<div>\n    ");
             EndContext();
             BeginContext(998, 279, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "57692ccd814d4814ab638cac80b0da16", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "27d1e09e3bc645c1ae0a5d4f79487d46", async() => {
                 BeginContext(1024, 246, true);
                 WriteLiteral("\n        <div class=\"form-group\">\n            <input type=\"text\" class=\"form-control\" id=\"findname\" name=\"findname\" placeholder=\"查找的姓名\" />\n            <input type=\"button\" class=\"btn btn-success\" onclick=\"find()\" value=\"搜索\" />\n        </div>\n    ");
                 EndContext();

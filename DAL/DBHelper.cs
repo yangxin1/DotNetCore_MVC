@@ -17,7 +17,7 @@ namespace DAL
     /// </summary>
     public abstract class DBHelper<T> : IDBHelper<T>
     {
-        #region field
+        #region field and property
         /// <summary>
         /// 连接字符串
         /// </summary>

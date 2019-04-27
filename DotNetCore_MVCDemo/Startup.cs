@@ -75,9 +75,15 @@ namespace DotNetCore_MVCDemo
             loggerFactory.AddNLog();
             env.ConfigureNLog("nlog.config");   //Nlog日志
 
-            app.UseHttpsRedirection();          //HTTP重定向访问中间件
-            app.UseStaticFiles();               //静态文件访问中间件
-            app.UseCookiePolicy();              //cookie策略中间件
+            //HTTP重定向访问中间件
+            app.UseHttpsRedirection();
+
+            //静态文件访问中间件
+            app.UseStaticFiles();
+
+            //cookie策略中间件
+            app.UseCookiePolicy();   
+            
             //身份验证
             app.UseAuthentication();
             //会话
@@ -111,7 +117,8 @@ namespace DotNetCore_MVCDemo
         public IContainer AutofacTest(IServiceCollection services)
         {
             var builder = new ContainerBuilder();//建立容器
-            List<Assembly> programlist = new List<Assembly> { Assembly.Load("DAL"), Assembly.Load("IDAL"), Assembly.Load("MODELS"), Assembly.Load("DotNetCore_MVCDemo") };
+            //2019/4/27修改：只需要注入DAL程序集即可
+            List<Assembly> programlist = new List<Assembly> { Assembly.Load("DAL")/*, Assembly.Load("IDAL"), Assembly.Load("MODELS"), Assembly.Load("DotNetCore_MVCDemo")*/ };
             foreach(var q in programlist)
             {
                 builder.RegisterAssemblyTypes(q).AsImplementedInterfaces();//批量注册程序集

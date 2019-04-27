@@ -39,7 +39,7 @@ namespace DotNetCore_MVCDemo.Controllers
         [AuthorityFilter]
         public async Task<IActionResult> Index()
         {
-            //读取cookie
+            //读取cookie（该步骤现已转到过滤器中执行）
             //if (HttpContext.User.Identity.IsAuthenticated)
             //{
                 string cookiename = HttpContext.User.Claims.First().Value;  //从HttpContext中获取客户端cookie

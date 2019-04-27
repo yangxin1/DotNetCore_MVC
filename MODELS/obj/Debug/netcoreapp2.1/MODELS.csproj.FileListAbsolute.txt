@@ -25,3 +25,12 @@ E:\Code\DotNetCore\DotNetCore_MVC-WebAPI-master\DotNetCore_MVCDemo\MODELS\obj\De
 E:\Code\DotNetCore\DotNetCore_MVC-WebAPI-master\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.AssemblyInfo.cs
 E:\Code\DotNetCore\DotNetCore_MVC-WebAPI-master\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.dll
 E:\Code\DotNetCore\DotNetCore_MVC-WebAPI-master\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.pdb
+E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\bin\Debug\netcoreapp2.1\MODELS.deps.json
+E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\bin\Debug\netcoreapp2.1\MODELS.dll
+E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\bin\Debug\netcoreapp2.1\MODELS.pdb
+E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.csprojAssemblyReference.cache
+E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.csproj.CoreCompileInputs.cache
+E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.AssemblyInfoInputs.cache
+E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.AssemblyInfo.cs
+E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.dll
+E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.pdb
