@@ -6605,11 +6605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\MODELS\\MODELS.csproj",
+      "projectUniqueName": "E:\\Code\\gitcode\\git_mvc\\MODELS\\MODELS.csproj",
       "projectName": "MODELS",
-      "projectPath": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\MODELS\\MODELS.csproj",
+      "projectPath": "E:\\Code\\gitcode\\git_mvc\\MODELS\\MODELS.csproj",
       "packagesPath": "C:\\Users\\a4200\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\MODELS\\obj\\",
+      "outputPath": "E:\\Code\\gitcode\\git_mvc\\MODELS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

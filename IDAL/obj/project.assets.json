@@ -6915,11 +6915,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\IDAL\\IDAL.csproj",
+      "projectUniqueName": "E:\\Code\\gitcode\\git_mvc\\IDAL\\IDAL.csproj",
       "projectName": "IDAL",
-      "projectPath": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\IDAL\\IDAL.csproj",
+      "projectPath": "E:\\Code\\gitcode\\git_mvc\\IDAL\\IDAL.csproj",
       "packagesPath": "C:\\Users\\a4200\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\IDAL\\obj\\",
+      "outputPath": "E:\\Code\\gitcode\\git_mvc\\IDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6938,8 +6938,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\MODELS\\MODELS.csproj": {
-              "projectPath": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\MODELS\\MODELS.csproj"
+            "E:\\Code\\gitcode\\git_mvc\\MODELS\\MODELS.csproj": {
+              "projectPath": "E:\\Code\\gitcode\\git_mvc\\MODELS\\MODELS.csproj"
             }
           }
         }

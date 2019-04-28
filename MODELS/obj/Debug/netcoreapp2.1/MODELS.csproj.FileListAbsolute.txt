@@ -34,3 +34,12 @@ E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.Asse
 E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.AssemblyInfo.cs
 E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.dll
 E:\Code\DotNetCore\DotNetCore_MVCDemo\MODELS\obj\Debug\netcoreapp2.1\MODELS.pdb
+E:\Code\gitcode\git_mvc\MODELS\bin\Debug\netcoreapp2.1\MODELS.deps.json
+E:\Code\gitcode\git_mvc\MODELS\bin\Debug\netcoreapp2.1\MODELS.dll
+E:\Code\gitcode\git_mvc\MODELS\bin\Debug\netcoreapp2.1\MODELS.pdb
+E:\Code\gitcode\git_mvc\MODELS\obj\Debug\netcoreapp2.1\MODELS.csprojAssemblyReference.cache
+E:\Code\gitcode\git_mvc\MODELS\obj\Debug\netcoreapp2.1\MODELS.csproj.CoreCompileInputs.cache
+E:\Code\gitcode\git_mvc\MODELS\obj\Debug\netcoreapp2.1\MODELS.AssemblyInfoInputs.cache
+E:\Code\gitcode\git_mvc\MODELS\obj\Debug\netcoreapp2.1\MODELS.AssemblyInfo.cs
+E:\Code\gitcode\git_mvc\MODELS\obj\Debug\netcoreapp2.1\MODELS.dll
+E:\Code\gitcode\git_mvc\MODELS\obj\Debug\netcoreapp2.1\MODELS.pdb

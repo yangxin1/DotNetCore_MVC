@@ -156,7 +156,7 @@ namespace DAL
                 try
                 {
                     if (_conn.Execute(sql.ToString()) != 0)         //执行sql
-                {
+                    {
                         _logger.Info("修改数据成功（数据访问层）");
                         return true;
                     }
@@ -195,15 +195,15 @@ namespace DAL
             return await Task.Run(() =>
             {
                 for (int i = 1; i < property.Length; i++)        //循环列名
-            {
+                {
                     fields += property[i].Name + ",";
                 }
                 fields = fields.Substring(0, fields.Length - 1);//删除最后的逗号
-            fields += " ) values (";
+                fields += " ) values (";
                 for (int i = 1; i < property.Length; i++)        //循环值
-            {
-                    if (property[i].PropertyType.FullName == "System.String")       //判断string类型加入引号
                 {
+                    if (property[i].PropertyType.FullName == "System.String")       //判断string类型加入引号
+                    {
                         fields += "'" + property[i].GetValue(model) + "',";
                     }
                     else
@@ -212,7 +212,7 @@ namespace DAL
                     }
                 }
                 fields = fields.Substring(0, fields.Length - 1);//删除最后的逗号
-            fields += ")";
+                fields += ")";
                 sql.Append(fields);
                 try
                 {
@@ -297,9 +297,9 @@ namespace DAL
                 {
                     return false;
                 }
-            }catch(Exception error)
+            } catch (Exception error)
             {
-                _logger.Error("执行SQL错误："+error);
+                _logger.Error("执行SQL错误：" + error);
                 return false;
             }
         }
@@ -317,12 +317,18 @@ namespace DAL
                  {
                      return _conn.QueryFirstOrDefault<T>(sql);
                  });
-            }catch(Exception error)
+            } catch (Exception error)
             {
-                _logger.Error("执行sql返回Model失败（数据访问层）:"+error);
+                _logger.Error("执行sql返回Model失败（数据访问层）:" + error);
             }
             return result;
         }
+        /// <summary>
+        /// 执行一段SQL返回一个实体类（Lambda）弃用：无法将数据查询输出的类型转换为其他类型·
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <returns></returns>
+        //public async Task<T> ExecuteToModel2(string sql) =>await _conn.QueryFirstOrDefaultAsync(sql); 
         #endregion
 
         #region MD5加密

@@ -7477,11 +7477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\DAL\\DAL.csproj",
+      "projectUniqueName": "E:\\Code\\gitcode\\git_mvc\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\DAL\\DAL.csproj",
+      "projectPath": "E:\\Code\\gitcode\\git_mvc\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\a4200\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\DAL\\obj\\",
+      "outputPath": "E:\\Code\\gitcode\\git_mvc\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7500,11 +7500,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\IDAL\\IDAL.csproj": {
-              "projectPath": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\IDAL\\IDAL.csproj"
+            "E:\\Code\\gitcode\\git_mvc\\IDAL\\IDAL.csproj": {
+              "projectPath": "E:\\Code\\gitcode\\git_mvc\\IDAL\\IDAL.csproj"
             },
-            "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\MODELS\\MODELS.csproj": {
-              "projectPath": "E:\\Code\\DotNetCore\\DotNetCore_MVCDemo\\MODELS\\MODELS.csproj"
+            "E:\\Code\\gitcode\\git_mvc\\MODELS\\MODELS.csproj": {
+              "projectPath": "E:\\Code\\gitcode\\git_mvc\\MODELS\\MODELS.csproj"
             }
           }
         }
