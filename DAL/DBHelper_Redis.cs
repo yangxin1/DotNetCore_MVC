@@ -33,6 +33,7 @@ namespace DAL
             catch (Exception error)
             {
                 _log.Error("未启动Redis缓存服务器，请检查配置文件(redis数据访问层)："+error.Message);
+                throw new Exception("未启动Redis数据库，请检查配置文件，错误信息："+error.Message);
             }
 
         }

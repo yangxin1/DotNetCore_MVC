@@ -9,6 +9,7 @@ using IDAL;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using MODELS;
 using NLog;
 
@@ -29,13 +30,18 @@ namespace DotNetCore_MVCDemo.Controllers
         /// </summary>
         private IDBHelper_Redis _redis;
         /// <summary>
+        /// 配置文件
+        /// </summary>
+        private IConfiguration _config;
+        /// <summary>
         /// 注入了redis类
         /// </summary>
         /// <param name="redis"></param>
-        public LoginController(IDBHelper_Redis redis,ILoginUser loginDAL)
+        public LoginController(IDBHelper_Redis redis,ILoginUser loginDAL,IConfiguration config)
         {
             _redis = redis;
             _DBHelper = loginDAL; //new LoginUserDAL();
+            _config = config;
             
         }
 
@@ -46,6 +52,7 @@ namespace DotNetCore_MVCDemo.Controllers
         /// <returns></returns>
         public async Task<IActionResult> Index()
         {
+            //ViewBag.config = _config["MySQLconnection"];    //临时（读取配置文件）
             if (HttpContext.User.Identity.IsAuthenticated)
             {
                 //校验Cookie
@@ -71,6 +78,8 @@ namespace DotNetCore_MVCDemo.Controllers
                 string username = await _DBHelper.MD5encrypt16(user.LoginName);//加密username
                 //Token 装入redis
                 await _redis.AddString(username, DateTime.Now.ToString());          //登录加密信息，登陆时间
+
+                #region 示范代码
                 //Token 装入cookie
                 //var claims = new[] { new Claim("loginname", username) };                                                //证件需要的相关信息
                 //var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);     //相当于证件
@@ -81,6 +90,7 @@ namespace DotNetCore_MVCDemo.Controllers
                 //    ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(60),  //cookie过期时间
                 //    AllowRefresh = true                                   //cookie存在期间内再次访问站点cookie过期时间可延长
                 //});
+                #endregion 
 
                 //使用列表保存Claim
                 var testclaims = new List<Claim>
